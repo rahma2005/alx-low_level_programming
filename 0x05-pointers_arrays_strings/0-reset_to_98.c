@@ -1,11 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code 
- *
- * Return: Always 0.
- */
+*  reset_to_98 - takes the pointer and updates the value
+*  @n: int to check
+*  Owned By Bwave/Bright
+*  Return: 0 is success
+*/
 
-void reset_to_98(int *n){
-	*n= 98; }
+void reset_to_98(int *n)
+{
+	*n = 98;
+}
